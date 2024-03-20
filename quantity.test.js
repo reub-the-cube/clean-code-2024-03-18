@@ -31,3 +31,11 @@ describe ('Quantity objects....', () => {
         expect(TEASPOON.s(6).equals(OUNCE.s(1))).toBe(true);
     })
 })
+
+describe('Quantities can be added together', ()=> {
+    test('same unit can be added together', () => {
+        const twoQuarts = QUART.s(1).add(QUART.s(1))
+
+        expect(twoQuarts.equals(QUART.s(2))).toBe(true)
+    })
+})

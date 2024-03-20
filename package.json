@@ -1,7 +1,6 @@
 {
   "name": "clean-code-2024-03-18",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -11,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reub-the-cube/clean-code-2024-03-18.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reub-the-cube/clean-code-2024-03-18/issues"
+  },
+  "homepage": "https://github.com/reub-the-cube/clean-code-2024-03-18#readme",
+  "description": ""
 }
