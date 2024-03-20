@@ -1,6 +1,3 @@
-
-const { QUART } = require("./unit");
-
 class Quantity{
     constructor(amount, unit){
         this._amount = amount;
@@ -12,7 +9,7 @@ class Quantity{
     }
 
     add(){
-        return QUART.s(2)
+        return new Quantity(2, this._unit);
  }
 }
 
